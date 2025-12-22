@@ -82,5 +82,5 @@ predictable, and maintainable.
 
 ## 👨‍💻 Author
 
-**<GOKUL HARI>**  
+**GOKUL HARI**  
 Software Engineer
