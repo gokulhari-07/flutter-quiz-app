@@ -19,7 +19,8 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
   void initState() {
     super.initState();
 
-    WidgetsBinding.instance.addPostFrameCallback((_) { //.addPostFrameCallback will be executed only after the current screen finishes building ie; after build method of this screen got executed. code running order: initState()>> build()>>layout>> paint>> post-frame callback
+    WidgetsBinding.instance.addPostFrameCallback((_) { //.addPostFrameCallback will be executed only after the current screen 
+    //finishes building ie; after build method of this screen got executed. code running order: initState()>> build()>>layout>> paint>> post-frame callback
       /*
       WidgetsBinding.instance:
         Think of it as Flutter's engine controller. 

@@ -19,8 +19,9 @@ class ResultsScreen extends StatelessWidget {
 
       return const SizedBox.shrink();
     }
-    final chosenAnswers = extra as List<String>;
 
+    final chosenAnswers = extra as List<String>; // GoRouter `extra` is seen here as Object?/dynamic, so we 
+    //cast it to `List<String>` even though QuestionsScreen sends a List<String>.
     final totalQuestions = questionsData.length;
     final totalCorrectCount = questionsData.asMap().entries.where((entry) {
       final correctAnswer = entry.value.answers[0];

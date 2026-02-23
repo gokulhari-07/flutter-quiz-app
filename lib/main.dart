@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/router.dart/app_router.dart';
-import 'package:quiz_app/screens/start_screen.dart';
 
 // var kColorScheme = ColorScheme.fromSeed(seedColor: Colors.purpleAccent);
 
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData().copyWith(
         //colorScheme: kColorScheme,
-        scaffoldBackgroundColor: Colors.deepPurple, //all scaffolds in this app will take same bg color.
+        //scaffoldBackgroundColor: Colors.deepPurple, //all scaffolds in this app will take same bg color.
       ),
       routerConfig:appRouter
     );
